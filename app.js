@@ -27,17 +27,27 @@ const city = document.querySelector("#city");
                 // const currenttime=18
                 if(currenttime>=6 && currenttime<18){
                   console.log('Morning')
-                  body.style.backgroundColor="blue"
+                  // body.style.backgroundColor="white"
                   // document.body.style.backgroundColor = "red";
+                  body.style.backgroundImage = "url('morn.jpg')";
+                  body.style.backgroundPosition = "center";
+                  body.style.backgroundSize = "cover";
+                  
 
                 }else if(currenttime>=18 && currenttime<=19){
                   console.log("eve")
-                  body.style.backgroundColor="#8f8b66"
+                  // body.style.backgroundColor="red"
+                  body.style.backgroundImage = "url('eve1.jpg')";
+                  body.style.backgroundPosition = "center";
+                  body.style.backgroundSize = "cover";
+                  
 
                 }else{
                   console.log("night")
-                  body.style.backgroundColor="black"
-
+                  body.style.backgroundImage = "url('night.jpg')";
+                  body.style.backgroundPosition = "center";
+                  body.style.backgroundSize = "cover";
+                  // body.style.backgroundRepeat = "no-repeat";
 
                 }
 
