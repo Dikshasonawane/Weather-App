@@ -30,8 +30,11 @@ const city = document.querySelector("#city");
                   // body.style.backgroundColor="white"
                   // document.body.style.backgroundColor = "red";
                   body.style.backgroundImage = "url('morn.jpg')";
-                  body.style.backgroundPosition = "center";
-                  body.style.backgroundSize = "cover";
+                  body.style.background-repeat: no-repeat;
+                     body.style.background-position:center ;
+                     body.style.background-size: cover;
+//                   body.style.backgroundPosition = "center";
+//                   body.style.backgroundSize = "cover";
                   
 
                 }else if(currenttime>=18 && currenttime<=19){
